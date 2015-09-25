@@ -1,6 +1,6 @@
 Package.describe({
-    name: 'taxigy:slackbot-remote-control',
-    version: '0.0.1',
+    name: 'rishatmuhametshin:slackbot-remote-control',
+    version: '0.0.1_1',
     summary: 'A Meteor package that wraps Slack basic feature, Slackbot remote control, that allows posting messages into any channel on behalf of @slackbot.',
     git: 'https://github.com/taxigy/meteor-slackbot-remote-control',
     documentation: 'README.md'

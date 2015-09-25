@@ -20,12 +20,16 @@ Slackbot.post = function (channel, message) {
         throw new Meteor.Error(401, 'No token provided for Slackbot.');
     }
 
+    if (!message && message != 0) {
+        message = '';
+    }
+
     HTTP.post(url, {
         params: {
             token: String(token),
             channel: String(channel)
         },
-        data: message
+        data: String(message)
     });
 };
 
